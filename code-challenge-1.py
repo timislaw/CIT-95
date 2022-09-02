@@ -113,10 +113,10 @@ print(float(int))
 # --------------------------------------------------- Separation -------------------------------------------------------
 
 
-def person_food_habits(name, food, habit):
-    print(f"{name} eats {food} with his {habit}")
-
-person_food_habits('tim', 'pizza', 'hand')
+# def person_food_habits(name, food, habit):
+#     print(f"{name} eats {food} with his {habit}")
+#
+# person_food_habits('tim', 'pizza', 'hand')
 
 def my_salary(name, worked, pay):
     rounded_pay = float(pay)
