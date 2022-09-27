@@ -12,7 +12,7 @@ user_int_array = []
 for i in range(20):
     user_int_array.append(999)
 
-print(user_int_array)
+# print(user_int_array)
 
 #create loop tracker
 num_of_loops = 0
@@ -23,7 +23,7 @@ user_str_array = []
 for i in range(5):
     user_str_array.append(f"0000000000000{i+1}")
 
-print(user_str_array)
+# print(user_str_array)
 
 #basic 3
 
@@ -76,7 +76,7 @@ while (True):
     if (clean_input):
         num = int(num)
         #turn num into int
-        print(type(num))
+        # print(type(num))
         if (num > int(largest)):
             largest = num
         if (num < int(smallest)):
@@ -88,3 +88,18 @@ while (True):
 
 print('largest num is', largest)
 print('smallest num is', smallest)
+
+print("\nUser input was: ")
+for item in user_int_array:
+    print(item)
+print("\n\n")
+print("Invalid user input was: ")
+for item in user_str_array:
+    print(item)
+print("\n\n")
+
+# TODO: Advanced 01) Output the user-input arrays without the unused elements i.e. 999, 0000000000004.
+# TODO: Advanced 02) Use a Python list instead of two arrays
+# TODO: Advanced 03) Create this program without needing the try/except block
+# TODO: Advanced 04) Use persistent storage (File I/O) to store user data -- who played the game and when, what was
+#                    their big and small number
